@@ -1,0 +1,33 @@
+/* ==============================
+	About Page
+============================== */
+.search-page main{
+	margin:0 auto;
+}
+.search-page h1{
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+	padding: 150px 20px 20px 20px;
+}
+.search-page h1 span{
+	color:$red;
+	font-size:40px;
+}
+@media only screen and (min-width: $mediumBP){
+
+}
+@media only screen and (max-width: $mediumBP){
+
+}
+
+@media only screen and (min-width: $smallBP){
+
+}
+@media only screen and (max-width: $smallBP){
+
+}
+
+@media only screen and (max-width: $tinyBP){
+
+}

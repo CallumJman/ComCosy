@@ -1,0 +1,160 @@
+/* ==============================
+	Single User Page
+============================== */
+
+
+.user-hero{
+	width:100%;
+	height:450px;
+}
+.user-hero__image{
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-position:center center;
+}
+
+
+
+.user-bio__image{
+	width:250px;
+	height:250px;
+	position:relative;
+	border:5px solid $beige;
+	display:inline-block;
+	vertical-align:top;
+}
+.user-bio__image img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 250px;
+	height: auto;
+	margin-top: -125px; /* Half the height */
+	margin-left: -125px; /* Half the width */
+}
+.user-bio_content{
+	display:inline-block;
+	width:60%;
+	width:calc(100% - 250px);
+	padding:0 30px;
+	background-color: rgba(255,255,255,.2);
+    border-radius: 0px 10px 0px 0px;
+}
+.user-bio_content h1{
+	font-family: latin_mono_10Rg;
+    color: #545252;
+    font-size: 30px;
+}
+.user-bio_content h2{
+	font-family: latin_mono_10Rg;
+    color: #545252;
+    font-size: 20px;
+    margin-bottom:20px;
+}
+.user-bio_content h2 span{
+	font-size:inherit;
+}
+.user-bio_content p{
+	white-space: pre-wrap;
+	font-weight:100;
+}
+.user-bio_content p a{
+	display:block;
+	padding:20px 0;
+	color: $orange;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.user-stats{
+	text-align:center;
+	padding:30px 0;
+}
+.stats-box, .user-stats__actions{
+	display:inline-block;
+	vertical-align:middle;
+}
+.stats-box{
+	color:$grey;
+	font-size:16px;
+	font-weight:bold;
+	padding:0 15px;
+}
+.stats-box span{
+	padding:7.5px 15px;
+	background-color:$grey;
+	color:$white;
+	font-size:16px;
+	margin-right:10px;
+	display:inline-block;
+	font-weight:bold;
+}
+.user-stats__actions{
+	display:inline-block;
+	width:400px;
+	vertical-align:middle;
+	width:50%;
+	text-align:right;
+}
+.user-stats__column{
+	display:inline-block;
+	vertical-align:middle;
+}
+.user-stats__column.action-buttons{
+	width:85%;
+	text-align:right;
+}
+.user-stats__column .action-button{
+	font-size:18px;
+	font-weight:bold;
+	padding:10px;
+	background-color:$beige;
+	color:$white;
+	margin:5px auto;
+	width:200px;
+	display:block;
+	text-align:center;
+}
+.user-stats__column.comcosy-heart{
+	width:15%;
+	background-image:url('');
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center center;
+	padding:30px;
+	text-align:center;
+}
+.user-stats__column.comcosy-heart p{
+	font-weight:100;
+}
+.user-other, .user-other *{
+	font-size:16px;
+}
+.user-wall h2{
+	font-size: 32px;
+    line-height: 40px;
+    margin: 60px auto 30px auto;
+    font-family: latin_mono_10Rg;
+}
+
+@media only screen and (min-width: $mediumBP){
+
+}
+@media only screen and (max-width: $mediumBP){
+	.user-bio__image, .user-bio__content{
+		display:block;
+		width:100%;
+	}
+}
+
+@media only screen and (min-width: $smallBP){
+
+}
+@media only screen and (max-width: $smallBP){
+
+}
+
+@media only screen and (max-width: $tinyBP){
+
+}

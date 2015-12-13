@@ -1,0 +1,47 @@
+/* ==============================
+	Footer
+============================== */
+
+footer{
+	background-color:#d7d7d7;
+	width:100%;
+	padding:30px 0;
+}
+.footer-wrapper{
+	max-width:$maxwidth;
+	margin:0 auto;
+}
+.footer-column{
+  display: inline-block;
+  vertical-align:top;
+  width:25%;
+}
+.footer-column img{
+	max-width:100%;
+	width:185px;
+	margin-top:20px;
+}
+.footer-column h5, .footer-column a{
+	font-size:12px;
+	line-height:22px;
+	display:block;
+}
+.footer-column h5{
+	font-weight:bold;
+	color:#4A4A4A;
+	text-transform:uppercase;
+}
+.footer-column a{
+	color:#4A4A4A;
+}
+.footer-column a:hover{
+	color:$orange;
+}
+
+
+@media only screen and (max-width: $mediumBP){
+
+}
+@media only screen and (max-width: $smallBP){
+
+}

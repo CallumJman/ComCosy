@@ -1,0 +1,56 @@
+/* ==============================
+	Single Request Page
+============================== */
+
+#single-request__wrapper{
+	max-width: 1200px;
+    margin: 0 auto;
+}
+.single-request__column {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    padding: 10px 20px;
+}
+.single-request__details {
+    padding: 10px 70px;
+}
+.single-request__text h2{
+	font-size: 28px;
+    line-height: 35px;
+    font-family: latin_mono_10Rg;
+    color: $orange;
+}
+.single-request__text h3{
+	font-size: 12px;
+	font-weight:100;
+	font-family: latin_mono_10Rg;
+	padding: 0 0 20px 0;
+}
+.single-request__image{
+	min-height: 250px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin-bottom: 20px;
+}
+@media only screen and (min-width: $mediumBP){
+
+}
+@media only screen and (max-width: $mediumBP){
+	.single-request__column {
+    	display: inline-block;
+    	width: 100%;
+	}
+}
+
+@media only screen and (min-width: $smallBP){
+
+}
+@media only screen and (max-width: $smallBP){
+
+}
+
+@media only screen and (max-width: $tinyBP){
+
+}

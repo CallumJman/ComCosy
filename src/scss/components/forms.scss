@@ -1,0 +1,34 @@
+/* ==============================
+	Forms Styling
+============================== */
+
+
+.feup-pure-form input[type=text], .ewd-feup-text-input, .feup-pure-form input[type=password], .feup-pure-form input[type=email], .feup-pure-form input[type=date], .feup-pure-form input[type=datetime-local], .feup-pure-form input[type=number], .feup-pure-form input[type=file], .feup-pure-form select, .feup-pure-form textarea{
+	font-size:25px;
+}
+.feup-pure-form-aligned .feup-pure-control-group label{
+	font-size:16px;
+}
+.feup-pure-button-primary, .feup-pure-button-selected, a.feup-pure-button-primary, a.feup-pure-button-selected{
+	font-size:16px;
+	background-color:$orange;
+	border:none;
+}
+
+@media only screen and (min-width: $mediumBP){
+
+}
+@media only screen and (max-width: $mediumBP){
+	
+}
+
+@media only screen and (min-width: $smallBP){
+
+}
+@media only screen and (max-width: $smallBP){
+
+}
+
+@media only screen and (max-width: $tinyBP){
+
+}

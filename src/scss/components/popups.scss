@@ -1,0 +1,100 @@
+/* ==============================
+	About Page
+============================== */
+
+.popups-wrapper{
+	left:-9999px;
+	position:fixed;
+}
+.popups-wrapper, .popup{
+	opacity:0;
+	transition:opacity .35s ease;
+}
+
+.popups-wrapper.active{
+	width:100%;
+	height:100%;
+	left:0;
+	opacity:1;
+	top:0;
+	z-index: 900;
+}
+
+.popups-wrapper.active .popups-background{
+	width:100%;
+	height:100%;
+	background-color:rgba(255,255,255,.85);
+	z-index:901;
+	cursor:pointer;
+}
+.popup.active{
+	position:fixed;
+	width:300px;
+	padding:30px;
+	opacity:1;
+	border:1px solid $red;
+	background-color:$white;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:15%;
+	z-index:902;
+	text-align:center;
+}
+.popup h3{
+	font-size: 25px;
+//	font-weight: 400;
+	color: $red;
+	line-height: 32px;
+	margin-bottom:15px;
+}
+.popup input{
+	width: 100%;
+	padding: 3px;
+	font-size: 18px;
+	line-height:32px;
+//	font-weight:100;
+	margin: 10px auto;
+}
+.popup input.action-link{
+	border:none;
+	background-color:$white;
+}
+::-webkit-input-placeholder {
+   font-size:18px;
+   color:$red;
+//   font-weight:100;
+}
+:-moz-placeholder { /* Firefox 18- */
+   font-size:18px;
+   color:$red;
+//   font-weight:100;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   font-size:18px;
+   color:$red;
+//   font-weight:100;  
+}
+:-ms-input-placeholder {  
+   font-size:18px;
+   color:$red;
+//   font-weight:100;  
+}
+
+@media only screen and (min-width: $mediumBP){
+
+}
+@media only screen and (max-width: $mediumBP){
+
+}
+
+@media only screen and (min-width: $smallBP){
+
+}
+@media only screen and (max-width: $smallBP){
+
+}
+
+@media only screen and (max-width: $tinyBP){
+
+}

@@ -1,0 +1,263 @@
+
+/* ==========================================================================
+   Helpers
+   ========================================================================== */
+
+
+
+
+
+
+/* Micro clearfix
+   ========================================================================== */
+.u-cf:before,
+.u-cf:after {
+  content: " ";
+  display: table;
+}
+
+.u-cf:after {
+  clear: both;
+}
+
+
+/* Clear Both
+   ========================================================================== */
+.cl-both { 
+  clear: both; 
+}
+
+
+
+
+
+/* ==========================================================================
+   Text Related
+   ========================================================================== */
+
+
+
+/* Hide only visually, but have it available for screen readers
+   ========================================================================== */
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    display: none !important;
+}
+
+
+/* Text Align Left
+   ========================================================================== */
+.tl {
+  text-align: left;
+}
+
+
+
+/* Text Align Center
+   ========================================================================== */
+.tc {
+  text-align: center;
+}
+
+
+
+
+/* Text Align Right
+   ========================================================================== */
+.tr {
+  text-align: right;
+}
+
+
+
+/* Text Uppercase
+   ========================================================================== */
+.u-textUpperCase {
+  text-transform: uppercase;
+}
+
+
+
+
+/* Text Capitalize
+   ========================================================================== */
+.u-textCapitalize {
+  text-transform: capitalize;
+}
+
+
+
+
+/* Text Italic
+   ========================================================================== */
+.u-textItalic {
+  font-style: italic;
+}
+
+
+
+/* Text Normal
+   ========================================================================== */
+.u-textNormal {
+  font-style: normal;
+}
+
+
+/* Inherit the ancestor's text color.
+   ========================================================================== */
+.u-textInheritColor {
+  color: inherit;
+}
+
+
+/* Break strings when their length exceeds the width of their container
+   ========================================================================== */
+.u-textBreak {
+  word-break: break-word;
+}
+
+
+/* truncate with an ellipsis
+   ========================================================================== */
+.u-textTruncate {
+  max-width: 100%; /* 1 Ensure that the node has a maximum width after which truncation can occur */
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  word-wrap: normal !important; /* 2 Fix for IE 8/9 if `word-wrap: break-word` is in effect on ancestor */
+}
+
+
+
+
+
+
+/* ==========================================================================
+   Blocks
+   ========================================================================== */
+
+
+
+/* Display Block
+   ========================================================================== */
+.u-block {
+  display: block;
+}
+
+
+
+/* Display Inline-Block
+   ========================================================================== */
+.u-inlineBlock {
+  display: inline-block;
+}
+
+
+
+/* Display Table for Vertical Align
+   ========================================================================== */
+.u-displayTable {
+  display: table;
+}
+
+.u-displayTable > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+
+/* Margin 0
+   ========================================================================== */
+.u-margin-t-flush {
+  margin-top: 0;
+}
+
+.u-margin-b-flush {
+  margin-bottom: 0;
+}
+
+.u-margin-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+/* Padding Flush
+   ========================================================================== */
+.u-padding-b-flush {
+  padding-bottom: 0!important;
+}
+
+
+
+/* Position
+   ========================================================================== */
+.u-position-rel {
+  position: relative;
+}
+
+
+
+/* Vertical Align
+   ========================================================================== */
+.u-valign-middle {
+  vertical-align: middle;
+}
+
+.u-valign-t {
+  vertical-align: top;
+}
+
+/* Floats
+   ========================================================================== */
+.fl {
+  float:left;
+}
+.fr {
+  float:right;
+}
+
+/* Z Indexes
+   ========================================================================== */
+.z1 {
+  z-index: 100;
+}
+.z2 {
+  z-index: 200;
+}
+.z3 {
+  z-index: 300;
+}
+.z4 {
+  z-index: 400;
+}
+.z5 {
+  z-index: 500;
+}
+.z6 {
+  z-index: 600;
+}
+.z7 {
+  z-index: 700;
+}
+.z8 {
+  z-index: 800;
+}
+.z9 {
+  z-index: 900;
+}
+/* Transitions
+   ========================================================================== */
+.transition{
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+}
+

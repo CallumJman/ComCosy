@@ -1,0 +1,21 @@
+/* ==============================
+	404 Page Styles
+============================== */
+#error-wrapper{
+	padding:150px 20px 20px 20px;
+	text-align:center;
+}
+#error-content{
+	padding-bottom: 50px;
+}
+#error-content h1{
+	font-size: 50px;
+	line-height: 50px;
+	padding-bottom: 50px;
+}
+#error-content .action-link{
+	font-size:35px;
+}
+@media only screen and (min-width: $smallBP){
+
+}
